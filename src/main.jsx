@@ -9,6 +9,7 @@ import Root from './Layout/Root';
 import Home from './Pages/Home/Home/Home';
 import OurPortfolio from './Pages/OurPortfolio/OurPortfolio';
 import Login from './Pages/Login/Login';
+import Register from './Pages/Register/Register';
 
 
 const router = createBrowserRouter([
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
         path: '/portfolio',
         element: <OurPortfolio></OurPortfolio>
       },
+      {
+        path: 'register',
+        element: <Register></Register>
+      }
 
     ]
 

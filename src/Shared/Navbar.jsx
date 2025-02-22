@@ -49,8 +49,8 @@ const Navbar = () => {
                             <NavLink onClick={() => setMobileMenu(false)} to="/portfolio" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
                                 <li>Portfolio</li>
                             </NavLink>
-                            <li>Our Team</li>
-                            <li>Contact Us</li>
+                            <Link to='/login'><button className='px-11 py-3 bg-[#F63E7B] rounded-lg text-white hover:bg-[#cb396a]'>Login</button></Link>
+
                         </ul>
                     </div>
 

@@ -18,7 +18,9 @@ const Login = () => {
                     <h1 className='font-semibold mx-auto'>Continue with google</h1>
                 </div>
                 <div className='flex items-center justify-center mt-3'>
-                    <p className=''>Don't have an account? <span className='text-[#F63E7B] underline'>Create an account</span> </p>
+                    <Link to='/register'>
+                        <p className=''>Don't have an account? <span className='text-[#F63E7B] underline'>Create an account</span> </p>
+                    </Link>
                 </div>
             </div>
         </div>
