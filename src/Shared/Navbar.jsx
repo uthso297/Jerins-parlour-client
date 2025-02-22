@@ -29,7 +29,7 @@ const Navbar = () => {
                                 <li>Our Team</li>
                                 <li>Contact Us</li>
                             </ul>
-                            <button className='px-11 py-3 bg-[#F63E7B] rounded-lg text-white'>Login</button>
+                            <Link to='/login'><button className='px-11 py-3 bg-[#F63E7B] rounded-lg text-white hover:bg-[#cb396a]'>Login</button></Link>
                         </div>
                     </div>
                     <div onClick={mobileOption} className='md:hidden'>

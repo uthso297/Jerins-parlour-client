@@ -8,6 +8,7 @@ import './index.css'
 import Root from './Layout/Root';
 import Home from './Pages/Home/Home/Home';
 import OurPortfolio from './Pages/OurPortfolio/OurPortfolio';
+import Login from './Pages/Login/Login';
 
 
 const router = createBrowserRouter([
@@ -22,11 +23,16 @@ const router = createBrowserRouter([
       {
         path: '/portfolio',
         element: <OurPortfolio></OurPortfolio>
-      }
+      },
 
     ]
 
   },
+
+  {
+    path: 'login',
+    element: <Login></Login>
+  }
 ]);
 
 createRoot(document.getElementById('root')).render(

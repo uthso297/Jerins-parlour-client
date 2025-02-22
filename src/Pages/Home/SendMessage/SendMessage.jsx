@@ -34,7 +34,7 @@ const SendMessage = () => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                    <button type='submit' className="px-11 py-3 bg-[#F63E7B] rounded-lg text-white mx-auto">
+                    <button type='submit' className="px-11 py-3 bg-[#F63E7B] rounded-lg text-white mx-auto hover:bg-[#cb396a]">
                         Send Message
                     </button>
                 </div>
