@@ -14,17 +14,19 @@ const Navbar = () => {
             {/* tab and larger */}
             <div className="pt-12 pb-6">
                 <div className='flex items-center justify-between'>
-                    <div>
-                        <img className='h-12' src={logo} alt="Jerins Parlour" />
-                    </div>
+                    <Link to='/'>
+                        <div>
+                            <img className='h-12' src={logo} alt="Jerins Parlour" />
+                        </div>
+                    </Link>
                     <div className='hidden md:block'>
                         <div className='flex items-center gap-6'>
                             <ul className='flex items-center gap-10'>
                                 <NavLink to="/" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
                                     <li>Home</li>
                                 </NavLink>
-                                <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
-                                    <li>Portfolio</li>
+                                <NavLink to="/customer/book" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
+                                    <li>Customer</li>
                                 </NavLink>
                                 <li>Our Team</li>
                                 <li>Contact Us</li>
