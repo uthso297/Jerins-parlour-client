@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import HappyCustomer from "../HappyCustomer/HappyCustomer";
+import SendMessage from "../SendMessage/SendMessage";
 import Services from "../Services/Services";
 import TestiMonial from "../TestiMonial/TestiMonial";
 
@@ -17,6 +18,9 @@ const Home = () => {
             </div>
             <div className="bg-white lg:px-32 px-3">
                 <TestiMonial></TestiMonial>
+            </div>
+            <div className="bg-[#FFF8F5] lg:px-32 px-3">
+                <SendMessage></SendMessage>
             </div>
         </div>
     );

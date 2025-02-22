@@ -34,7 +34,7 @@ const Services = () => {
             <h1 className="text-center font-bold text-2xl">
                 Our Awesome <span className="text-[#F63E7B]">Services</span>
             </h1>
-            <div className="flex lg:flex-row flex-col items-center justify-between gap-3">
+            <div className="flex lg:flex-row flex-col items-center justify-between gap-3 cursor-pointer">
                 {services.map((service, index) => (
                     <div
                         key={index}
