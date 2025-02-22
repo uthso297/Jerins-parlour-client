@@ -2,7 +2,7 @@ import React from 'react';
 import customr from '../../../assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png'
 const HappyCustomer = () => {
     return (
-        <div className='lg:flex lg:flex-row justify-between py-20'>
+        <div className='lg:flex lg:flex-row justify-between py-20 space-y-5 lg:space-y-0'>
             <div>
                 <img className='lg:w-[500px] lg:h-[300px] w-full h-full' src={customr} alt="" />
             </div>
