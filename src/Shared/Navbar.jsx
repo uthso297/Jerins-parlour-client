@@ -48,8 +48,8 @@ const Navbar = () => {
                             <NavLink onClick={() => setMobileMenu(false)} to="/" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
                                 <li>Home</li>
                             </NavLink>
-                            <NavLink onClick={() => setMobileMenu(false)} to="/portfolio" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
-                                <li>Portfolio</li>
+                            <NavLink to="/customer/book" className={({ isActive }) => (isActive ? 'font-bold' : '')}>
+                                <li>Customer</li>
                             </NavLink>
                             <Link to='/login'><button className='px-11 py-3 bg-[#F63E7B] rounded-lg text-white hover:bg-[#cb396a]'>Login</button></Link>
 

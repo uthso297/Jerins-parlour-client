@@ -12,7 +12,7 @@ const CustomerHome = () => {
         <div className="mt-10">
             <h1 className="p-4 text-xl font-bold">Book</h1>
             <div className="bg-[#f4f7fc] min-h-screen lg:pt-6 pl-4 lg:pl-0">
-                <form onSubmit={handleSubmit} className="lg:max-w-md w-[80%] mx-auto lg:mx-0 pt-10 lg:pt-0 lg:pl-10 space-y-4">
+                <form onSubmit={handleSubmit} className="lg:max-w-md w-[90%] mx-auto lg:mx-0 pt-10 lg:pt-0 lg:pl-10 space-y-4">
                     <input type="text" name="name" placeholder="Anika Ahmed" className="w-full p-2 border rounded" required />
                     <input type="email" name="email" placeholder="Anika@gmail.com" className="w-full p-2 border rounded" required />
                     <input type="text" name="service" placeholder="Anti Age Face Treatment" className="w-full p-2 border rounded" required />
