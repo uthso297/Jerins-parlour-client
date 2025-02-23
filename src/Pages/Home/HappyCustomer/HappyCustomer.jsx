@@ -2,9 +2,9 @@ import React from 'react';
 import customr from '../../../assets/images/engin-akyurt-g-m8EDc4X6Q-unsplash 1.png'
 const HappyCustomer = () => {
     return (
-        <div className='lg:flex lg:flex-row justify-between py-20 space-y-5 lg:space-y-0'>
+        <div className='lg:flex lg:flex-row lg:justify-between gap-40 py-20 space-y-5 lg:space-y-0'>
             <div>
-                <img className='lg:w-[500px] lg:h-[300px] w-full h-full' src={customr} alt="" />
+                <img className='lg:w-[500px] lg:h-full w-full h-full' src={customr} alt="" />
             </div>
             <div className='lg:w-[50%] flex flex-col justify-between gap-5 lg:gap-0'>
                 <h1 className='lg:text-4xl text-3xl font-bold'>Let Us Handle Your <br className='hidden lg:block' /> Screen <span className='text-[#F63E7B]'>Professionally</span>. </h1>
